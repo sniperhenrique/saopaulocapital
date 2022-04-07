@@ -1,0 +1,147 @@
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+  }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  a {
+    color: #E60084;
+  }
+  
+  body {
+    padding-top: 5vh;
+    background: linear-gradient(68.15deg, #000000 16.62%, #000000 85.61%);
+  }
+
+  
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+  
+  /* form */
+  #main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(3, 3, 3);
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  #main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #FFF;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    color: #FFF;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    color: #FFF;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+    color: #FFF;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+    color: #FFF;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+  
+  input:focus {
+    border-color: #E60084;
+  }
+  
+  input[type="submit"] {
+    background-color: #E60084;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
+  .rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
